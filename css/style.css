@@ -35,8 +35,10 @@ body {
 .navigation-link .link:active {
   color: #404bbf;
 }
-.address-link .contacts {
+.all-adresses {
   font-style: normal;
+}
+.address-link .contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -71,14 +73,14 @@ body {
 .button:focus {
   background-color: #404bbf;
 }
-.section-title-accent {
+.first-section .item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.text-section {
+.first-section .text-section {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
