@@ -3,40 +3,40 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #f4f4fd;
 }
-ul .navigation-link {
+.navigation-link a {
   font-size: 12px;
   line-height: 1.33;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   text-decoration: none;
   color: #2e2f42;
 }
-ul .navigation-link:hover,
-ul .address-link:focus {
+.navigation-link a:hover,
+.address-link a:focus {
   color: #4d5ae5;
 }
-ul .navigation-link:active {
+.navigation-link a:active {
   color: #404bbf;
 }
-ul .address-link {
+.address-link a {
   font-size: 12px;
   line-height: 1.33;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   text-decoration: none;
   color: #2e2f42;
 }
-ul .address-link:hover,
-ul .address-link:focus {
+.address-link a:hover,
+.address-link a:focus {
   color: #4d5ae5;
 }
 .main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #ffffff;
   background-color: #2e2f42;
   text-align: center;
@@ -45,7 +45,7 @@ ul .address-link:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -53,11 +53,13 @@ ul .address-link:focus {
 .button:hover {
   background-color: #404bbf;
 }
-
+ul {
+  list-style: none;
+}
 h2 {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
   background-color: #f4f4fd;
@@ -65,7 +67,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
 }
@@ -77,7 +79,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .portfolio-card {
   text-align: left;
